@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Foundation Classes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+           
+                <h1 class="logo">🌸 Foundation Classes</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mcq.html">MCQ Question Bank</a></li>
+                    <li><a href="courses.html">Course Selection</a></li>
+                </ul>
+            </nav>
+            <button class="login-btn" onclick="toggleLogin()">Login</button>
+        </div>
+    </header>
+
+    <!-- Login Modal -->
+    <div class="login-modal" id="loginModal">
+        <div class="login-box">
+            <span class="close-btn" onclick="closeLogin()">&times;</span>
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Submit</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="mainContent">
+    <section class="home-intro">
+        <h2>Welcome to Foundation Classes</h2>
+        <p>Build Strong Roots, Achieve Big Dreams</p>
+    </section>
+
+    <section class="what-we-offer">
+        <h3>WHAT WE OFFER:</h3>
+
+        <div class="offer-block">
+            <h4>1. Foundation for JEE & NEET</h4>
+            <ul>
+                <p>Designed for Class 9th & 10th students</p>
+                <p>Learn everything you need to check your readiness for competitive exams</p>
+                <p>Concept clarity, logical reasoning & application-focused learning</p>
+            </ul>
+        </div>
+
+        <div class="offer-block">
+            <h4>2. Specialized Class 10 Board Preparation</h4>
+            <ul>
+                <p>Focused study plan for scoring high in board exams</p>
+                <p>Chapter-wise strategy, NCERT mastery</p>
+                <p>Exam-oriented practice</p>
+            </ul>
+        </div>
+
+        <div class="digital-notes">
+            <p><strong>DIGITAL NOTES PROVIDED</strong></p>
+        </div>
+    </section>
+</main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Foundation Classes is dedicated to providing quality learning materials.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Location</h3>
+                <p>New Area Hazaribagh Jharkhand</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: ppanchanan90@gmail.com<br>Phone: +91-7903918422</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
