@@ -4,6 +4,29 @@
     <meta charset="UTF-8">
     <title>Course Selection</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        table th, table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+
+        table tr:hover {
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 <body>
 
@@ -27,7 +50,48 @@
     <main>
         <h2>Course Selection</h2>
         <p>Select from a variety of available courses to begin your learning journey.</p>
-        <!-- Add more content or course selection form here -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Course</th>
+                    <th>Price (INR)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9</td>
+                    <td>Basics</td>
+                    <td>₹4,999</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>JEE Foundation</td>
+                    <td>₹7,999</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>NEET Foundation</td>
+                    <td>₹7,999</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Basics</td>
+                    <td>₹5,499</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>JEE Foundation</td>
+                    <td>₹8,499</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>NEET Foundation</td>
+                    <td>₹8,499</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
     <!-- Footer -->
